@@ -188,3 +188,9 @@ Console.WriteLine (Name);*/
 //string lastName = name.Substring(charPos);
 //Console.WriteLine(lastName);
 
+
+
+bool isCSharpFun = true;
+bool isFishTasty = false;
+Console.WriteLine(isCSharpFun);   // Outputs True
+Console.WriteLine(isFishTasty);   // Outputs False
