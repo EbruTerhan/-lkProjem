@@ -223,7 +223,7 @@ if ( 20 > 18)
 } */
 
 using System.ComponentModel.Design;
-
+/*
 int time = 20;
 if ( time < 18)
 {
@@ -235,8 +235,8 @@ else
 {
     Console.WriteLine(" Good Evening.");
 
-}
-
+} */
+/*
 int Time = 22;
 
 if (time < 10)
@@ -260,7 +260,34 @@ else
 int Time = 20;
 
 string result = (time < 18) ? " Good day. " : " Good evening.";
-Console.WriteLine(result);
+Console.WriteLine(result); */
+
+int day = 4;
+ switch ( day)
+{
+    case 1:
+        Console.WriteLine(" monday");
+        break;
+    case 2:
+        Console.WriteLine("tuesday");
+        break;
+    case 3:
+        Console.WriteLine("wednesday");
+        break;
+    case 4:
+        Console.WriteLine("thursday");
+        break;
+    case 5:
+        Console.WriteLine("friday");
+        break;
+    case 6:
+        Console.WriteLine("saturday");
+        break;
+    case 7:
+        Console.WriteLine("sunday");
+        break;
+   
+} 
 
 
 
