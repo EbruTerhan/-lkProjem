@@ -188,12 +188,11 @@ Console.WriteLine (Name);*/
 //string lastName = name.Substring(charPos);
 //Console.WriteLine(lastName);
 
-
-
+/*
 bool isCSharpFun = true;
 bool isFishTasty = false;
 Console.WriteLine(isCSharpFun);   // Outputs True
-Console.WriteLine(isFishTasty);   // Outputs False
+Console.WriteLine(isFishTasty);   // Outputs False */
 
 
 /*int x = 10;
@@ -203,9 +202,38 @@ Console.WriteLine(x > y); // returns True, because 10 is higher than 9
 Console.WriteLine(10 > 9); // returns True, because 10 is higher tha */
 
 
+// Zeki Not: 
+
+/* Zeki Sedası ile gurur duyuyor ve onu çok güzel seviyor. ... Tarih: 06-08-2024  */
+
+/*
 int x = 20;
 int y = 18;
 if (x > y)
 {
-    Console.WriteLine("x is greater than y");
+    Console.WriteLine("x is greater than y"); 
+} */
+
+
+if ( 20 > 18)
+{
+    Console.WriteLine("20 is greater than");
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
