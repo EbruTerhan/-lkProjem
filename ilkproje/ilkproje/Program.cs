@@ -214,14 +214,53 @@ if (x > y)
     Console.WriteLine("x is greater than y"); 
 } */
 
+/*
 
 if ( 20 > 18)
 {
     Console.WriteLine("20 is greater than");
 
+} */
+
+using System.ComponentModel.Design;
+
+int time = 20;
+if ( time < 18)
+{
+Console.WriteLine ("Good day. ");
+
+}
+ 
+else
+{
+    Console.WriteLine(" Good Evening.");
+
+}
+
+int Time = 22;
+
+if (time < 10)
+{
+
+    Console.WriteLine("Good Morning.");
+}
+else if (time < 20)
+{
+
+    Console.WriteLine("Good Day.");
+}
+else
+
+{
+    Console.WriteLine("Good Evening.");
+
 }
 
 
+int Time = 20;
+
+string result = (time < 18) ? " Good day. " : " Good evening.";
+Console.WriteLine(result);
 
 
 
