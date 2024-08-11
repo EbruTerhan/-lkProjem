@@ -261,7 +261,7 @@ int Time = 20;
 
 string result = (time < 18) ? " Good day. " : " Good evening.";
 Console.WriteLine(result); */
-
+/*
 int day = 4;
  switch ( day)
 {
@@ -286,8 +286,25 @@ int day = 4;
     case 7:
         Console.WriteLine("sunday");
         break;
-   
-} 
+} */
+
+int day = 4; ;
+switch (day)
+{
+    case 6:
+        Console.WriteLine("Today is saturday");
+        break;
+    case 7:
+        Console.WriteLine("Today is sunday");
+        break;
+    default:
+        Console.WriteLine("Looking forward to the weekend");
+        break;
+
+
+
+
+}
 
 
 
